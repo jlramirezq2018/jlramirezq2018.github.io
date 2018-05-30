@@ -1,0 +1,38 @@
+#cuerpo {
+    position: absolute;
+    left: 20;
+    top: 190px;
+    text-align: justify;
+    height: 100%;
+}
+
+#menbrete {
+    position: absolute;
+    left: 530px;
+    top: 2px;
+    text-align: right;
+}
+
+#curva {
+    font-family: "Times New Roman", Times, serif;
+}
+
+ol {
+    list-style-type: disc;
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+.sangria {
+    padding-left: 40px
+}
+
+.hiperazu {
+    color: blue
+}
+
+.hipervio {
+    color: blueviolet
+}
