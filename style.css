@@ -36,3 +36,7 @@ ul {
 .hipervio {
     color: blueviolet
 }
+
+.icon-home:before {
+    content: "\e900";
+}

@@ -44,3 +44,7 @@
     p.capitalize {
         text-transform: capitalize;
     }
+    
+    .icon-home:before {
+        content: "\e900";
+    }
