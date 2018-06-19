@@ -9,6 +9,7 @@
     <meta name="author" content="">
     <title>Pagina personal</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -17,7 +18,20 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 
+
 </head>
+<style>
+    .social-bar {
+        position: fixed;
+        right: 0;
+        top: 25%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 100;
+    }
+</style>
 
 <body id="page-top">
 
@@ -36,7 +50,7 @@
                 ">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Mis Trabajos</a>
+                        <a class="nav-link js-scroll-trigger" href="#portfolio"><span class="glyphicon glyphicon-home"></span> Mis Trabajos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">Biografia</a>
@@ -205,7 +219,16 @@
         </div>
     </section>
 
+    <aside>
+        <div class="social-bar">
+            <a href="https://www.facebook.com" class="btn btn-fb"><i class="fa fa-facebook pr-1"></i> Facebook</a>
+            <a href="https://www.youtube.com" class="btn btn-fb"><i class="fa fa-facebook pr-1"></i> Youtube</a>
+            <a href="https://www.Twitter.com" class="btn btn-fb"><i class="fa fa-facebook pr-1"></i> Twitter</a>
+            <a href="https://www.google.com" class="btn btn-fb"><i class="fa fa-facebook pr-1"></i> Google+</a>
 
+
+        </div>
+    </aside>
 
     <section id="about">
         <div class="container">
@@ -340,6 +363,11 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
     </section>
 
 
@@ -569,16 +597,20 @@
 
 
 
-    <!-- Bootstrap core JavaScript -->
+
     <script src="recursos/jquery/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
+
     <script src="recursos/jquery-easing/jquery.easing.min.js"></script>
 
 
-    <!-- Custom scripts for this template -->
     <script src="bootstrap/js/agency.min.js"></script>
+
+
+
+
+
 
 
 </body>
